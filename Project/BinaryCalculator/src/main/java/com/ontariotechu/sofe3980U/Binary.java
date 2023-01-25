@@ -80,37 +80,49 @@ public class Binary
 		
 	}
 
-	public static Binary bitwiseOR(Binary num1,Binary num2){
+	//Function to make both binary numbers same length
+	public static String[] lengthOfNumbers(Binary num1,Binary num2) {
 
 		//Get the length of the Binary numbers
-		int ind1=num1.number.length();
-		int ind2=num2.number.length();
+		int lenNum1=num1.number.length();
+		int lenNum2=num2.number.length();
 
 		//Intialize variables
-		String or="";
 		String num1String= num1.number;
 		String num2String= num2.number;
 		int j=0;
 
 		//Add leading zeros to the number that is smaller 
-		if (ind1> ind2){ //First binary number is greater
-			int zeros= (ind1-ind2);
+		if (lenNum1> lenNum2){ //First binary number is greater
+			int zeros= (lenNum1-lenNum2);
 			while (j<zeros){
 				
 				num2String="0" +num2String;
 				j++;
 			}
 		}
-		else if (ind1 < ind2){ //Second binary number is greater
-			int zeros= (ind2 - ind1);
+		else if (lenNum1 < lenNum2){ //Second binary number is greater
+			int zeros= (lenNum2 - lenNum1);
 			while (j<zeros){
 				
 				num1String="0" + num1String;
 				j++;
 			}
 		}
+		return new String[] {num1String, num2String};
+		
+	}
+
+	public static Binary bitwiseOR(Binary num1,Binary num2){
+
+		//Intialize variables
+		String[] binaryLength= lengthOfNumbers(num1, num2); 
+		String num1String = binaryLength[0];
+		String num2String = binaryLength[1];
+		String or="";
 
 		int i=0;
+
 		//Loop to check the number at each position
 		while (i< num1String.length()){
 			char firstNum= num1String.charAt(i); 
@@ -135,33 +147,13 @@ public class Binary
 		
 
 	public static Binary bitwiseAND(Binary num1,Binary num2){
-	//Get the length of the Binary numbers
-		int ind1=num1.number.length();
-		int ind2=num2.number.length();
 
-		//Intialize variables
+
+	//Intialize variables
+		String[] binaryLength= lengthOfNumbers(num1, num2); 
+		String num1String = binaryLength[0];
+		String num2String = binaryLength[1];
 		String and="";
-		String num1String= num1.number;
-		String num2String= num2.number;
-		int j=0;
-
-		//Add leading zeros to the number that is smaller 
-		if (ind1> ind2){ //First binary number is greater
-			int zeros= (ind1-ind2);
-			while (j<zeros){
-				
-				num2String="0" +num2String;
-				j++;
-			}
-		}
-		else if (ind1 < ind2){ //Second binary number is greater
-			int zeros= (ind2 - ind1);
-			while (j<zeros){
-				
-				num1String="0" + num1String;
-				j++;
-			}
-		}
 
 		int i=0;
 
@@ -200,29 +192,10 @@ public class Binary
 	{
 		//Intialize variables
 
-		String num1String= num1.number;
-		String num2String= num2.number;
-		int ind1=num1.number.length();
-		int ind2=num2.number.length();
-		int j=0;
+		String[] binaryLength= lengthOfNumbers(num1, num2); 
+		String num1String = binaryLength[0];
+		String num2String = binaryLength[1];
 
-		//Add leading zeros to the number that is smaller 
-		if (ind1> ind2){ //First binary number is greater
-			int zeros= (ind1-ind2);
-			while (j<zeros){
-				
-				num2String="0" +num2String;
-				j++;
-			}
-		}
-		else if (ind1 < ind2){ //Second binary number is greater
-			int zeros= (ind2 - ind1);
-			while (j<zeros){
-				
-				num1String="0" + num1String;
-				j++;
-			}
-		}
 
 		//Convert the numbers to integers
 		int num1Int=Integer.parseInt(num1String, 2);

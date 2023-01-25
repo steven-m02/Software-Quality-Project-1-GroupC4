@@ -28,5 +28,7 @@ public class App
 		System.out.println( "Their OR is "+or.getValue());
 		Binary and= Binary.bitwiseAND(binary1,binary2);
 		System.out.println( "Their AND is "+and.getValue());
+		Binary multiply= Binary.bitwiseMULTIPLY(binary1,binary2);
+		System.out.println( "Their multiplied value is "+multiply.getValue());
     }
 }

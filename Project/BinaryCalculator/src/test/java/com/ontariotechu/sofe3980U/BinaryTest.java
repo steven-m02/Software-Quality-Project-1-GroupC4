@@ -184,4 +184,37 @@ public class BinaryTest
 		Binary binary3=Binary.bitwiseOR(binary1,binary2);
         assertTrue( binary3.getValue().equals("111111"));
     }
+
+    /*Test The multiply functions with two binary numbers
+    */
+    @Test
+    public void multiply1()
+    {
+		Binary binary1=new Binary("1101");
+		Binary binary2=new Binary("1001");
+		Binary binary3=Binary.bitwiseMULTIPLY(binary1,binary2);
+        assertTrue( binary3.getValue().equals("1110101"));
+    }
+
+    /*Test The multiply functions with two binary numbers, the length of the first argument is greater than the second
+    */
+    @Test
+    public void multiply2()
+    {
+		Binary binary1=new Binary("111011");
+		Binary binary2=new Binary("101");
+		Binary binary3=Binary.bitwiseMULTIPLY(binary1,binary2);
+        assertTrue( binary3.getValue().equals("100100111"));
+    }
+
+    /*Test The multiply functions with two binary numbers, the length of the first argument is less than the second
+    */
+    @Test
+    public void multiply3()
+    {
+		Binary binary1=new Binary("101");
+		Binary binary2=new Binary("111011");
+		Binary binary3=Binary.bitwiseMULTIPLY(binary1,binary2);
+        assertTrue( binary3.getValue().equals("100100111"));
+    }
 }

@@ -2,21 +2,21 @@
 @packages
 @argfile
 -classpath
-'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/target/classes;C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/target/test-classes;C:/Users/lyba0/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/lyba0/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/lyba0/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar'
+'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/target/classes;C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/target/test-classes;C:/Users/lyba0/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/lyba0/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/lyba0/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar'
 -encoding
 'UTF-8'
 -protected
 -source
 '1.7'
 -sourcepath
-'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/src/test/java;C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/target/generated-test-sources/test-annotations'
+'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/src/test/java;C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/target/generated-test-sources/test-annotations'
 -author
 -bottom
 'Copyright &#169; 2023. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/target/site/testapidocs'
+'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/target/site/testapidocs'
 -docencoding
 'UTF-8'
 -doctitle
@@ -24,37 +24,37 @@
 -link
 '../apidocs'
 -linkoffline
-'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/target/javadoc-bundle-options'
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
 'BinaryCalculator 1.0.0 Test API'
 com.ontariotechu.sofe3980U
-'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
-'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Project/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\classes = 1674663290576
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\test-classes = 1674663290744
+'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
+'C:/Users/lyba0/Downloads/Winter 2023/Software Quality/Software-Quality-Project-1-GroupC4/Project/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\classes = 1674678205171
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\test-classes = 1674678205375
 C:\Users\lyba0\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1674586699819
 C:\Users\lyba0\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1674586699837
 C:\Users\lyba0\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar = 1674588174148
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\src\test\java = 1674586577994
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\generated-test-sources\test-annotations = 1674663290654
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1674663297743
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1674663297747
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\copy.svg = 1674663297803
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\element-list = 1674663297671
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\help-doc.html = 1674663297794
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\index-all.html = 1674663297774
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\index.html = 1674663297781
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\jquery-ui.overrides.css = 1674663297827
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1674663297756
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1674663297749
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1674663297723
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1674663297752
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\script.js = 1674663297800
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\search-page.js = 1674663297811
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\search.html = 1674663297778
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\search.js = 1674663297807
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1674663297797
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1674663297758
-C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Project\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1674663297754
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\src\test\java = 1674586577994
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\generated-test-sources\test-annotations = 1674678205261
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1674678213825
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1674678213825
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\copy.svg = 1674678213885
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\element-list = 1674678213755
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\help-doc.html = 1674678213876
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\index-all.html = 1674678213856
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\index.html = 1674678213865
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\jquery-ui.overrides.css = 1674678213905
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1674678213841
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1674678213835
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1674678213809
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1674678213836
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\script.js = 1674678213884
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\search-page.js = 1674678213895
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\search.html = 1674678213856
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\search.js = 1674678213888
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1674678213876
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1674678213841
+C:\Users\lyba0\Downloads\Winter 2023\Software Quality\Software-Quality-Project-1-GroupC4\Project\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1674678213836

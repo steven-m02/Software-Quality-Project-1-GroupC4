@@ -196,5 +196,46 @@ public class Binary
 		
 	}
 
+	public static Binary bitwiseMULTIPLY(Binary num1,Binary num2)
+	{
+		//Intialize variables
+
+		String num1String= num1.number;
+		String num2String= num2.number;
+		int ind1=num1.number.length();
+		int ind2=num2.number.length();
+		int j=0;
+
+		//Add leading zeros to the number that is smaller 
+		if (ind1> ind2){ //First binary number is greater
+			int zeros= (ind1-ind2);
+			while (j<zeros){
+				
+				num2String="0" +num2String;
+				j++;
+			}
+		}
+		else if (ind1 < ind2){ //Second binary number is greater
+			int zeros= (ind2 - ind1);
+			while (j<zeros){
+				
+				num1String="0" + num1String;
+				j++;
+			}
+		}
+
+		//Convert the numbers to integers
+		int num1Int=Integer.parseInt(num1String, 2);
+		int num2Int=Integer.parseInt(num2String, 2);
+
+		//Get the product of the int value
+		int product= num1Int*num2Int;
+
+		//Convert the int value into a String and store it as new Binary Object
+		Binary result=new Binary(Integer.toBinaryString(product));  
+		return result;
+		
+	}
+
 	
 }	
